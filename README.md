@@ -1,8 +1,7 @@
 # Neural_Network_Charity_Analysis
 Neural Networks and Deep Learning Models
 
-## Environment
-Tensorflow v. 2.4.1
+
 
 ## Overview 
 1. Compare the differences between the traditional machine learning classification and regression models and the neural network models.
@@ -40,8 +39,8 @@ The target for the model was 75%, but the best the model could produce was 72.7%
 
 6. What steps did you take to try and increase model performance?   
 Columns were reviewed and the STATUS and SPECIAL_CONSIDERATIONS columns were dropped as well as increasing the number of neurons and layers.  Other activations were tried such as tanh, but the range that model produced went from 40% to 68% accuracy.  The linear activation produced the worst accuracy, around 28%.  The relu activation at the early layers and sigmoid activation at the latter layers gave the best results.  
-![Pic 2](https://github.com/Baylex/Neural_Network_Charity_Analysis/blob/main/Image/Dev_1_and_2.PNG)   
-![Pic 3](https://github.com/Baylex/Neural_Network_Charity_Analysis/blob/main/Image/Dev3.PNG)    
+![Pic 2](https://github.com/arash-yousefi/Neural_Network_Charity_Analysis/blob/main/Image/Dev_1_and_2.PNG)   
+![Pic 3](https://github.com/arash-yousefi/Neural_Network_Charity_Analysis/blob/main/Image/Dev3.PNG)    
 
 ### Summary:   
 The relu and sigmoid activations yielded a 72.7% accuracy, which is the best the model could produce using various number of neurons and layers.  The next step should be to try the random forest classifier as it is less influenced by outliers.  
